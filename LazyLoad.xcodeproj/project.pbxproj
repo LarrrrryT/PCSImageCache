@@ -14,14 +14,15 @@
 		29F3D8CC19515E59003AB7F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F3D8CB19515E59003AB7F3 /* main.m */; };
 		29F3D8D019515E59003AB7F3 /* PCSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F3D8CF19515E59003AB7F3 /* PCSAppDelegate.m */; };
 		29F3D8D319515E59003AB7F3 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29F3D8D119515E59003AB7F3 /* Main_iPhone.storyboard */; };
-		29F3D8D619515E59003AB7F3 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29F3D8D419515E59003AB7F3 /* Main_iPad.storyboard */; };
-		29F3D8D919515E59003AB7F3 /* PCSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F3D8D819515E59003AB7F3 /* PCSViewController.m */; };
 		29F3D8DB19515E59003AB7F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29F3D8DA19515E59003AB7F3 /* Images.xcassets */; };
 		29F3D8E219515E59003AB7F3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29F3D8E119515E59003AB7F3 /* XCTest.framework */; };
 		29F3D8E319515E59003AB7F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29F3D8BF19515E59003AB7F3 /* Foundation.framework */; };
 		29F3D8E419515E59003AB7F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29F3D8C319515E59003AB7F3 /* UIKit.framework */; };
 		29F3D8EC19515E59003AB7F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29F3D8EA19515E59003AB7F3 /* InfoPlist.strings */; };
 		29F3D8EE19515E59003AB7F3 /* LazyLoadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F3D8ED19515E59003AB7F3 /* LazyLoadTests.m */; };
+		29F3D8FD19515E99003AB7F3 /* UIImageView+Download.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F3D8FC19515E99003AB7F3 /* UIImageView+Download.m */; };
+		29F3D90019515F3B003AB7F3 /* PCSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F3D8FF19515F3B003AB7F3 /* PCSTableViewController.m */; };
+		29F3D90319515F4A003AB7F3 /* PCSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F3D90219515F4A003AB7F3 /* PCSTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,15 +47,18 @@
 		29F3D8CE19515E59003AB7F3 /* PCSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCSAppDelegate.h; sourceTree = "<group>"; };
 		29F3D8CF19515E59003AB7F3 /* PCSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCSAppDelegate.m; sourceTree = "<group>"; };
 		29F3D8D219515E59003AB7F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		29F3D8D519515E59003AB7F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		29F3D8D719515E59003AB7F3 /* PCSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCSViewController.h; sourceTree = "<group>"; };
-		29F3D8D819515E59003AB7F3 /* PCSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCSViewController.m; sourceTree = "<group>"; };
 		29F3D8DA19515E59003AB7F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		29F3D8E019515E59003AB7F3 /* LazyLoadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LazyLoadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29F3D8E119515E59003AB7F3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		29F3D8E919515E59003AB7F3 /* LazyLoadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LazyLoadTests-Info.plist"; sourceTree = "<group>"; };
 		29F3D8EB19515E59003AB7F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		29F3D8ED19515E59003AB7F3 /* LazyLoadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LazyLoadTests.m; sourceTree = "<group>"; };
+		29F3D8FB19515E99003AB7F3 /* UIImageView+Download.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Download.h"; sourceTree = "<group>"; };
+		29F3D8FC19515E99003AB7F3 /* UIImageView+Download.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Download.m"; sourceTree = "<group>"; };
+		29F3D8FE19515F3B003AB7F3 /* PCSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCSTableViewController.h; sourceTree = "<group>"; };
+		29F3D8FF19515F3B003AB7F3 /* PCSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCSTableViewController.m; sourceTree = "<group>"; };
+		29F3D90119515F4A003AB7F3 /* PCSTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCSTableViewCell.h; sourceTree = "<group>"; };
+		29F3D90219515F4A003AB7F3 /* PCSTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCSTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,9 +121,12 @@
 				29F3D8CE19515E59003AB7F3 /* PCSAppDelegate.h */,
 				29F3D8CF19515E59003AB7F3 /* PCSAppDelegate.m */,
 				29F3D8D119515E59003AB7F3 /* Main_iPhone.storyboard */,
-				29F3D8D419515E59003AB7F3 /* Main_iPad.storyboard */,
-				29F3D8D719515E59003AB7F3 /* PCSViewController.h */,
-				29F3D8D819515E59003AB7F3 /* PCSViewController.m */,
+				29F3D8FB19515E99003AB7F3 /* UIImageView+Download.h */,
+				29F3D8FC19515E99003AB7F3 /* UIImageView+Download.m */,
+				29F3D8FE19515F3B003AB7F3 /* PCSTableViewController.h */,
+				29F3D8FF19515F3B003AB7F3 /* PCSTableViewController.m */,
+				29F3D90119515F4A003AB7F3 /* PCSTableViewCell.h */,
+				29F3D90219515F4A003AB7F3 /* PCSTableViewCell.m */,
 				29F3D8DA19515E59003AB7F3 /* Images.xcassets */,
 				29F3D8C619515E59003AB7F3 /* Supporting Files */,
 			);
@@ -232,7 +239,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29F3D8D619515E59003AB7F3 /* Main_iPad.storyboard in Resources */,
 				29F3D8DB19515E59003AB7F3 /* Images.xcassets in Resources */,
 				29F3D8D319515E59003AB7F3 /* Main_iPhone.storyboard in Resources */,
 				29F3D8CA19515E59003AB7F3 /* InfoPlist.strings in Resources */,
@@ -254,8 +260,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29F3D8D919515E59003AB7F3 /* PCSViewController.m in Sources */,
+				29F3D90019515F3B003AB7F3 /* PCSTableViewController.m in Sources */,
+				29F3D8FD19515E99003AB7F3 /* UIImageView+Download.m in Sources */,
 				29F3D8CC19515E59003AB7F3 /* main.m in Sources */,
+				29F3D90319515F4A003AB7F3 /* PCSTableViewCell.m in Sources */,
 				29F3D8D019515E59003AB7F3 /* PCSAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,14 +301,6 @@
 				29F3D8D219515E59003AB7F3 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		29F3D8D419515E59003AB7F3 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				29F3D8D519515E59003AB7F3 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		29F3D8EA19515E59003AB7F3 /* InfoPlist.strings */ = {

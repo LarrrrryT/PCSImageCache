@@ -1,5 +1,5 @@
 //
-//  PCSViewController.h
+//  PCSTableViewController.h
 //  LazyLoad
 //
 //  Created by LT on 6/17/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PCSViewController : UIViewController
+@interface PCSTableViewController : UITableViewController
 
 @end
